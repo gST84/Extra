@@ -1,0 +1,77 @@
+2020-10-26 21:30:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for apple_tv which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for nodered which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for scheduler which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for myhome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:17 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for linkplay which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-26 21:30:21 ERROR (MainThread) [homeassistant.components.media_player] The denonavr platform for the media_player integration does not support platform setup. Please remove it from your config.
+2020-10-26 21:30:21 ERROR (MainThread) [homeassistant.helpers.integration_platform] Unexpected error importing myhome/logbook.py
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/integration_platform.py", line 30, in _process
+    platform = integration.get_platform(platform_name)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 401, in get_platform
+    cache[full_name] = importlib.import_module(
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'custom_components.MyHOME.logbook'
+2020-10-26 21:30:21 ERROR (MainThread) [homeassistant.helpers.integration_platform] Unexpected error importing myhome/media_source.py
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/integration_platform.py", line 30, in _process
+    platform = integration.get_platform(platform_name)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 401, in get_platform
+    cache[full_name] = importlib.import_module(
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'custom_components.MyHOME.media_source'
+2020-10-26 21:30:21 ERROR (MainThread) [homeassistant.helpers.integration_platform] Unexpected error importing myhome/group.py
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/integration_platform.py", line 30, in _process
+    platform = integration.get_platform(platform_name)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 401, in get_platform
+    cache[full_name] = importlib.import_module(
+  File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'custom_components.MyHOME.group'
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name iPhone van Magali
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name iPhone van Magali
+2020-10-26 21:30:22 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Sebastien
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.samsung_led40_ue40f6400 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.ue48j5600_ue48j5500 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_safari does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_sebastien does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_safari_3 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_safari_4 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_safari_5 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_safari_6 does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_infuse_sebastien does not support any media_player features
+2020-10-26 21:30:29 ERROR (SyncWorker_30) [homeassistant.components.homekit.util] media_player.plex_infuse_woonkamer does not support any media_player features
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_web_safari_osx as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_for_android_tv_mibox_s as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_for_android_tv_mibox_s_2 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_for_lg_lg_oled55c9pla as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add sensor.arylicliving as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add sensor.poster as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_for_apple_tv_woonkamer as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_for_android_tv_shield_android_tv as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add binary_sensor.nodered_pmd_3 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add binary_sensor.nodered_glas_3 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add binary_sensor.nodered_gft_3 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add binary_sensor.nodered_afval_2 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add binary_sensor.nodered_papier_3 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:29 WARNING (SyncWorker_30) [homeassistant.components.homekit] Cannot add media_player.plex_plex_web_safari_3 as this would exceeded the 150 device limit. Consider using the filter option
+2020-10-26 21:30:33 WARNING (stream_worker) [homeassistant.components.stream.worker] Dropping out of order packet: 184110 <= 184110
+2020-10-26 21:30:51 WARNING (MainThread) [homeassistant.components.ps4.media_player] PS4 could not be reached
